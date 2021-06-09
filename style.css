@@ -1,0 +1,118 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background: #3498db;
+}
+.logo i{
+    font-size: 40px;
+    color: #ddd;
+    line-height: 100px;
+    transition: .5s;
+}
+.logo i:hover{
+    font-size: 60px;
+    color: #ddd;
+    line-height: 100px;
+}
+
+
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 100px;
+    margin-left: -5px;
+}
+
+.primary-menu ul li a:hover{
+    background: rgb(156, 184, 196);
+}
+.banner{
+    background: url(./image/1615355.jpg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding: 250px 0;
+    color: #fff;
+}
+.about{
+    background: #c8caca;
+}
+
+.card{
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+img{
+   max-width: 100%;
+   border-radius: 10px;
+}
+.product-item p{
+    font-size: 18px;
+}
+.product-right ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.product-right ul li{
+    background: #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer{
+    background: #2c3e50;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: #fff;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+span i{
+    color: rgb(255, 255, 0);
+    font-size: 35px;
+    margin-top: 3px;
+}
+.google-map{
+    border: 1px solid #000;
+}
+form input{
+    margin-bottom: 3px;
+}
+form textarea{
+    margin-bottom: 4px;
+}
+
+.nav{
+    text-align: right;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    width: 90px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: green;
+    border-radius: 5px;
+}
